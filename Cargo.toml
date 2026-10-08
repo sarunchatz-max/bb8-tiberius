@@ -10,9 +10,9 @@ repository = "https://github.com/kardeiz/bb8-tiberius"
 keywords = ["mssql", "tiberius", "database", "pool"]
 
 [dependencies]
-tiberius = { version = "0.12", default-features = false }
+tiberius = { version = "0.13", default-features = false }
 bb8 = "0.9"
-thiserror = "1.0.23"
+thiserror = "2.0.21"
 tokio = { version = "1.1.0", features = ["net"], optional = true }
 tokio-util = { version = "0.7", features = ["compat"], optional = true }
 async-std = { version = "1.9.0", optional = true }
